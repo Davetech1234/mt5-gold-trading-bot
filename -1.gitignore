@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.log
+.venv/
+venv/
+env/
+
+# Secrets / local configuration
+.env
+.env.*
+!.env.example
+config.py
+secrets.py
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Backups
+*_original.py
